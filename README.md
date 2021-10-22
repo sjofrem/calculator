@@ -1,4 +1,4 @@
 # Calculator
-This is a [Calculator](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/calculator) for the Odin Project.
+This is a [Calculator](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/calculator) created with HTML, CSS and JS for the Odin Project.
 
-[liev demo](https://sjofrem.github.io/calculator/)
+[Live Demo](https://sjofrem.github.io/calculator/)
