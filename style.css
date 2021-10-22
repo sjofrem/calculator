@@ -27,36 +27,35 @@ body {
 /* Calculator section */
 
 #calculator {
-    height: 540px;
-    width: 450px;
+    width: 380px;
     background: #b1a6a4;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
+    padding: 35px 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
 }
 #display {
     background-color: #eaeed6;
-    margin-top: 30px;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     width: 85%;
-    height: 18%;
+    min-height: 25%;
     border-radius: 10px;
+    padding: 17px;
+    word-wrap: break-word;
     box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 #result {
     color: #3f3f3f;
-    font-size: 1.45rem;
+    font-size: 1.8rem;
     text-align: right;
-    margin: 20px 20px 10px 0px;
 
 }
 #operation {
     color: #3f3f3f;
     font-size: 1rem;
     text-align: right;
-    margin-right: 20px;
 
 }
 #buttons {
@@ -79,7 +78,7 @@ button {
     cursor: pointer;
     transition: all .15s ease-in-out;
 }
-.number {
+.number, #equals{
     background: #5c5c5c;
 }
 .operator {
@@ -89,7 +88,7 @@ button {
     background-color: #a75858;
 }
 
-.number:hover {
+.number:hover, #equals:hover {
     background-color: #7a7a7a ;
     transform: translateY(-0.2rem);
 }
@@ -117,6 +116,8 @@ button {
 
 /*Footer section*/
 #footer {
+    position: relative;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
