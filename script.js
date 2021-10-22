@@ -30,7 +30,12 @@ equals.addEventListener("click", () => {
         result = roundResult(operate(operator,n1,n2));
         displayOperation.innerText = `${n1} ${operator} ${n2} =`;
         displayResult.innerText = `${result}`;
-        n1 = result;
+        if(result != 0){
+            n1 = result;
+        }
+        else{
+            n1 = "";
+        }
         n2 = "";
         operator = "";
     }
